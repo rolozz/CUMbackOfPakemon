@@ -1,0 +1,7 @@
+body {
+    background-image: url('/static/images/background.jpg');
+    background-size: cover; /* Масштабирование изображения на весь экран */
+    background-repeat: no-repeat; /* Без повторения */
+    background-position: center; /* Центрирование изображения */
+    height: 100vh;
+}

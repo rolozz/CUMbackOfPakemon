@@ -1,1 +1,11 @@
-spring.application.name=TextModifier
+spring:
+  application:
+    name: text.modifier
+
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+    static-path-pattern: /static/**
+
